@@ -19,7 +19,7 @@ a {
 }
 
 .container {
-  max-width: 1120px;
+  max-width: 1140px;
   margin: 0 auto;
   padding-inline: 1rem;
 }
@@ -165,9 +165,43 @@ header {
 #propostas {
   background-color: #eeebeb;
   color: #00376b;
+  padding: 6rem 4rem;
 
   h2 {
     font-size: 4rem;
+  }
+
+  .cards {
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    .card {
+      width: 350px;
+      border-radius: 8px;
+      padding: 1.5rem;
+      box-shadow: inset 0px 0px 6px 0px rgba(0, 55, 107, 0.3);
+
+      .ph {
+        font-size: 1.5rem;
+      }
+
+      .titulo {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        h3 {
+          font-size: 1.125rem;
+        }
+      }
+
+      p {
+        margin-top: 1rem;
+        font-size: .875rem;
+      }
+    }
   }
 }
 
@@ -196,8 +230,9 @@ header {
   }
   #home {
     padding-block: 4rem;
+
     img {
-      max-width: 300px;
+      max-width: 250px;
     }
 
     .content {
