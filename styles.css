@@ -165,7 +165,7 @@ header {
 #propostas {
   background-color: #eeebeb;
   color: #00376b;
-  padding: 6rem 4rem;
+  padding-block: 6rem 4rem;
 
   h2 {
     font-size: 4rem;
@@ -222,6 +222,11 @@ header {
       }
     }
   }
+}
+
+footer {
+  background-color: #e37600;
+  height: 3.5rem;
 }
 
 @media (width < 850px) {
