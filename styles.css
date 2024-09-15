@@ -175,12 +175,13 @@ header {
     margin-top: 4rem;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 1rem;
 
     .card {
-      width: 350px;
+      max-width: 400px;
       border-radius: 8px;
-      padding: 1.5rem;
+      padding: 1rem;
       box-shadow: inset 0px 0px 6px 0px rgba(0, 55, 107, 0.3);
 
       .ph {
